@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vesk Industres Lab</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+
+
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link search-icon" href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+      <a class="navbar-brand" href="shop.html" style="margin:center;">
+        <i><img src="img/logo.png" alt="" style="width: 150px;"></i>
+      </a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="chart.html">
+            <i class="fas fa-shopping-bag"></i>
+          </a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle dropdown-toggle-no-caret" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="shop.html">Shop</a>
+            <a class="dropdown-item" href="about.html">About me</a>
+            <a class="dropdown-item" href="register.html">Account</a>
+          </div>
+        </li>        
+      </ul>
+    </div>
+  </nav>
+
+
+    <!-- Form -->
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6">
+            <h2 class="text-center"><b>Register</b></h2> <br>
+            <form>
+              <div class="form-group">
+                <label for="name"><b>Name</b></label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="email"><b>Email</b></label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                <label for="password"><b>Password</b></label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+              </div>
+              <div class="form-group">
+                <label for="confirm_password"><b>Confirm Password</b></label>
+                <input type="password" class="form-control" id="confirm_password" placeholder="Confirm your password">
+              </div>
+              <div class="form-group">
+                <label for="address"><b>Address</b></label>
+                <textarea class="form-control" id="address" rows="3" placeholder="Enter your address"></textarea>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="terms">
+                  <label class="form-check-label" for="terms">
+                   I agree to the <a href="terms.html" target="_blank" style="color: #252525;"><u> Terms and Conditions</u> </a>
+                  </label>
+                </div>
+              </div>
+              <div class="text-center"> 
+                <button type="submit" class="btn btn-dark"><b>REGISTER</b></button>
+              </div>
+              <div class="text-center mt-3">
+                <b><a href="#" style="color: #252525;">Forgot your password?</a></b>
+              </div>
+              <div class="text-center mt-3">
+                <b><a href="login.html" style="color: #252525 ;">Login</a></b>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+   <!-- Footer -->
+   <br>
+   <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Other Menu</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none">About Us</a></li>
+            <li><a href="#" class="text-decoration-none">F.A.Q</a></li>
+            <li><a href="#" class="text-decoration-none">Order Tracking</a></li>
+            <li><a href="#" class="text-decoration-none">Check Shipping Fee</a></li>
+            <li><a href="#" class="text-decoration-none">Transfer Confirmation</a></li>
+            <li><a href="#" class="text-decoration-none">Term & Condition</a></li>
+            <li><a href="#" class="text-decoration-none">Payment Option</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact Us</h5>
+          <p>Jl. Kalijati - Subang</p>
+          <p>West Java, Indonesia</p>
+          <p>Phone: 0812384848213</p>
+        </div>
+        <div class="col-md-4 ">
+          <h5>Follow Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="#" class="text-decoration-none"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="#" class="text-decoration-none"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#" class="text-decoration-none"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center mb-0">© 2023 Vesk Industries Lab. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

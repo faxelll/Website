@@ -1,0 +1,292 @@
+.navbar-brand {
+    font-size: 1.5rem;
+    margin-left: 3%;
+  }
+.navbar{
+  height: 75px;
+}
+
+
+  .dropdown-toggle-no-caret::after {
+display: none;
+}
+.text-no-underline {
+  text-decoration: none !important;
+}
+
+.text-no-underline:hover {
+  text-decoration: underline !important;
+}
+
+  .card {
+width: 100%;
+position: relative;
+overflow: hidden;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+transition: transform 0.3s;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+.card-img-top {
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+
+.card-body {
+padding: 1rem;
+background-color: #fff;
+}
+
+.card-title {
+margin-bottom: 0.5rem;
+}
+
+.card-price {
+font-size: 0.875rem;
+color: #888;
+}
+
+.card-overlay {
+position: absolute;
+bottom: 0;
+right: 0;
+padding: 0.5rem;
+opacity: 0;
+transition: opacity 0.3s;
+}
+
+.card:hover .card-overlay {
+opacity: 1;
+}
+
+.add-to-cart {
+display: inline-block;
+padding: 0.25rem 0.5rem;
+background-color: #6c757d;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+background-color: #FFC107;
+text-decoration: none;
+transform: scale(1.05);
+}
+
+.add-to-cart:before {
+content: "\f07a";
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+margin-right: 0.5rem;
+}
+
+.add-to-cart:hover:before {
+content: "\f217";
+}
+
+.add-to-cart span {
+display: inline-block;
+vertical-align: middle;
+}
+
+.row {
+margin: 0 -5px;
+}
+.col-md-3 {
+padding: 0 5px;
+}
+
+.wrapper {
+  padding: 60px;
+  background-color: #f2f2f2;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+  footer {
+    background-color: #333;
+    color: #fff;
+  }
+
+  footer p {
+    margin-bottom: 0;
+  }
+
+  footer a {
+    color: #fff;
+    margin-right: 0.5rem;
+  }
+  
+  .product-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+
+  .subtotal {
+    font-weight: bold;
+  }
+
+  .checkout-button {
+    background-color: #FF5C00;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+
+  .checkout-button:hover {
+    background-color: #FF7F32;
+  }
+
+  .zoom-img {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .zoom-img img {
+    transition: transform 0.3s ease;
+  }
+
+  .zoom-img:hover img {
+    transform: scale(1.1);
+  }
+
+  .no-margin {
+    margin: 0;
+    padding: 0;
+  }
+  .profile-container {
+    border: 2px solid #252525;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .profile-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .profile-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .product-details {
+    padding: 40px;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .product-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .product-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 30px;
+  }
+  
+  .add-to-cart-btn {
+    padding: 12px 24px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: darkblue;
+  }
+  .product-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.1);
+  }
+  .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    
+  }
+  
+  .rating > input {
+    display: none;
+  }
+  
+  .rating > label {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    font-size: 2em;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .rating > label:before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .rating > label:hover:before,
+  .rating > label:hover ~ label:before {
+    opacity: 1 !important;
+  }
+  
+  .rating > input:checked ~ label:before {
+    opacity: 1;
+  }
+  
+  .rating > label:hover:before,
+  .rating > label:hover ~ label:before {
+    color: gold;
+  }
+  
